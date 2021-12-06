@@ -10,11 +10,8 @@ import { BoardsController } from './boards.controller';
 import { BoardsService } from './boards.service';
 
 @Module({
-  imports: [
-    TypeOrmModule.forFeature([BoardRepository]),
-    AuthModule
-  ],
+  imports: [TypeOrmModule.forFeature([BoardRepository]), AuthModule],
   controllers: [BoardsController],
-  providers: [BoardsService]
+  providers: [BoardsService],
 })
 export class BoardsModule {}

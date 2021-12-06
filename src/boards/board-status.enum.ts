@@ -13,6 +13,6 @@
 
 // 열거형(enumeration)
 export enum BoardStatus {
-    PUBLIC = "PUBLIC",
-    PRIVATE = "PRIVATE",
+  PUBLIC = 'PUBLIC',
+  PRIVATE = 'PRIVATE',
 }
